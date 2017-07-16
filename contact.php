@@ -30,7 +30,7 @@
         <meta property="og:site_name" content="Ankrd Media" />
         <meta property="fb:app_id" content="327091514370832" />
 
-        <link rel="canonical" href="https://ankrdmedia.com/contact.html" />
+        <link rel="canonical" href="https://ankrdmedia.com/contact.php" />
 
         <meta name=viewport content="width=device-width, initial-scale=1">
 
@@ -55,7 +55,7 @@
                         <a href="ankrd.html">Ankrd</a>
                     </li>
                     <li class="menu-item">
-                        <a href="contact.html" class="active">Contact</a>
+                        <a href="contact.php" class="active">Contact</a>
                     </li>
 
                 </ul>
