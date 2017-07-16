@@ -10,6 +10,11 @@ gulp.task('generate-service-worker', function(callback) {
     var swPrecache = require('sw-precache');
 
     swPrecache.write(path.join('./', 'sw.js'), {
+        staticFileGlobs: [
+            'css/**.css',
+            '**.html',
+            'images/**.*'
+        ],
         runtimeCaching: [
             {
                 urlPattern: '/(.*)',
