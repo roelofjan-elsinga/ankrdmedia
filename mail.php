@@ -8,10 +8,11 @@ if (isset($_POST['email']))  {
     $phone = $_POST['phone'];
     $text = $_POST['text'];
     
-    $text .= "\n\n Phone number: {$phone}";
+    $text .= "\n\nPhone number: {$phone}";
+    $text .= "\nFrom: {$email}";
     
     //send email
-    mail($admin_email, "Contact form filled out", $text, "From:" . $email);
-    
-    header('Location: contact.html');
+    $mail = mail($admin_email, "Contact form filled out", $text, "From:" . $email);
+
+    header('Location: https://ankrdmedia.com/contact.php');
 }
