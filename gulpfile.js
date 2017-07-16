@@ -13,6 +13,7 @@ gulp.task('generate-service-worker', function(callback) {
         staticFileGlobs: [
             'css/**.css',
             '**.html',
+            '**.php',
             'images/**.*'
         ],
         runtimeCaching: [
