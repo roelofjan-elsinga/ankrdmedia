@@ -15,7 +15,7 @@ if (isset($_POST['email']))  {
         "Reply-To: {$email}";
     
     //send email
-    $mail = mail($admin_email, "Contact form filled out", $text, $headers);
+    $mail = mail($admin_email, "Ankrd Media Contact form", $text, $headers);
 
     header('Location: https://ankrdmedia.com/contact.php');
 }
