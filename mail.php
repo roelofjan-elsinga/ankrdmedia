@@ -11,8 +11,11 @@ if (isset($_POST['email']))  {
     $text .= "\n\nPhone number: {$phone}";
     $text .= "\nFrom: {$email}";
     
+    $headers = "From: {$email}" . "\r\n" .
+        "Reply-To: {$email}";
+    
     //send email
-    $mail = mail($admin_email, "Contact form filled out", $text, "From:" . $email);
+    $mail = mail($admin_email, "Contact form filled out", $text, $headers);
 
     header('Location: https://ankrdmedia.com/contact.php');
 }
