@@ -49,11 +49,12 @@
         }
 
         .left {
-            display: none;
+            display: none !important;
         }
 
         .right {
-            justify-content: center;
+            justify-content: center !important;
+            padding: 0 !important;
         }
 
     }
