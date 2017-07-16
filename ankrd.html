@@ -10,7 +10,7 @@
         <!-- Schema.org markup for Google+ -->
         <meta itemprop="name" content="Ankrd Media">
         <meta itemprop="description" content="Ankrd Media is a startup seeking to help shape the future of communication and how we share information in balanced and creative formats.">
-        <meta itemprop="image" content="https://ankrdmedia.com/images/logo.png">
+        <meta itemprop="image" content="https://ankrdmedia.com/images/logo_black.png">
 
         <!-- Twitter Card data -->
         <meta name="twitter:card" content="Ankrd Media is a startup seeking to help shape the future of communication and how we share information in balanced and creative formats.">
@@ -19,13 +19,13 @@
         <meta name="twitter:description" content="Ankrd Media is a startup seeking to help shape the future of communication and how we share information in balanced and creative formats.">
         <meta name="twitter:creator" content="@author_handle">
         <!-- Twitter summary card with large image must be at least 280x150px -->
-        <meta name="twitter:image:src" content="https://ankrdmedia.com/images/logo.png">
+        <meta name="twitter:image:src" content="https://ankrdmedia.com/images/logo_black.png">
 
         <!-- Open Graph data -->
         <meta property="og:title" content="Ankrd Media" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://ankrdmedia.com" />
-        <meta property="og:image" content="https://ankrdmedia.com/images/logo.png" />
+        <meta property="og:image" content="https://ankrdmedia.com/images/logo_black.png" />
         <meta property="og:description" content="Ankrd Media is a startup seeking to help shape the future of communication and how we share information in balanced and creative formats." />
         <meta property="og:site_name" content="Ankrd Media" />
         <meta property="fb:app_id" content="327091514370832" />
