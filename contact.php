@@ -36,6 +36,8 @@
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
         <link href="./css/style.css" rel="stylesheet">
+
+        <script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
     <body>
 
@@ -76,7 +78,11 @@
                         <input type="text" placeholder="Phone" class="input" name="phone">
                         <textarea class="input" name="text" rows="5" placeholder="Inquiries"></textarea>
 
-                        <button class="button" type="submit">Submit</button>
+                        <button class="button g-recaptcha"
+                                data-sitekey="6LcxOSkUAAAAACTuMXSnvZbV-sn-Qjaqu6CLNQ-g"
+                                data-callback="YourOnSubmitFn" type="submit">
+                            Submit
+                        </button>
 
                     </form>
 
