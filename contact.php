@@ -92,6 +92,10 @@
 
         </div>
 
+        <div class="footer">
+            &copy; 2017 Ankrd Media, LLC. All rights reserved.
+        </div>
+
         <script type="text/javascript">
             if('serviceWorker' in navigator) {
                 navigator.serviceWorker
