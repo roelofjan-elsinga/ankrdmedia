@@ -72,7 +72,7 @@
                         We've always got an open ear for you:
                     </p>
 
-                    <form method="post" action="mail.php" class="contact-form">
+                    <form method="post" action="mail.php" class="contact-form" id="contact-form">
 
                         <input type="email" placeholder="Email" class="input" name="email">
                         <input type="text" placeholder="Phone" class="input" name="phone">
@@ -80,7 +80,7 @@
 
                         <button class="button g-recaptcha"
                                 data-sitekey="6LcxOSkUAAAAACTuMXSnvZbV-sn-Qjaqu6CLNQ-g"
-                                data-callback="YourOnSubmitFn" type="submit">
+                                data-callback="onSubmit" type="submit">
                             Submit
                         </button>
 
@@ -97,6 +97,10 @@
                 navigator.serviceWorker
                     .register('/sw.js')
                     .then(function() { console.log("Service Worker Registered"); });
+            }
+
+            function onSubmit(token) {
+                document.getElementById("contact-form").submit();
             }
         </script>
 
